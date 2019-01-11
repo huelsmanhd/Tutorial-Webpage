@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    overflow: hidden;
+  }
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 20px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    background-color: gold;
+}
+
+section {
+    display: block;
+}
