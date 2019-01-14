@@ -25,12 +25,13 @@ body {
     background-color: goldenrod;
 }
 
-.animated {
+.header {
     margin: 0;
     text-align: center;
     width: 60%;
     position: relative;
     color: teal;
+    
     font: normal 40px arial;
 }
 
