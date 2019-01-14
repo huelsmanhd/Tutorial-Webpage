@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-ul {
+#navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -10,21 +10,114 @@ ul {
     overflow: hidden;
   }
 
-li {
+#navbar li {
     float: right;
 }
 
-li a {
+#navbar li a {
     display: block;
     padding: 20px 16px;
     text-decoration: none;
     color: black;
 }
 
-li a:hover {
-    background-color: gold;
+#navbar  li a:hover {
+    background-color: goldenrod;
 }
 
-section {
-    display: block;
+.animated {
+    margin: 0;
+    text-align: center;
+    width: 60%;
+    position: relative;
+    color: teal;
+    font: normal 40px arial;
+}
+
+img {
+    float: right;
+    position: relative;
+    bottom: 280px;
+    margin: 10px;
+    border-radius: 5%;
+    width: 40%;
+    height: 25%;
+    box-shadow: 5em;
+}
+
+hr.titleBar {
+    width: 85%;
+    position: relative;
+    height: 10px;
+    background-color: goldenrod;
+    border: solid 2px goldenrod;
+    border-radius: 50%
+}
+
+#sidebar {
+    float: right;
+    margin: 10px;
+    padding: 15px;
+    border: solid 1px black;
+    background-color: purple;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    position: relative;
+    left: 500px;
+    bottom: -50px;
+}
+
+#sidebar h5 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.sidebarList li a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebarList li a:hover {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.sidebarList {
+    float: right;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+}
+
+.infosect h3 {
+    position: relative;
+    font: bold 30px "Lucida Sans Unicode";
+    color: teal;
+    margin: 20px;
+}
+
+.infosect p {
+    width: 75%;
+    font-size: 22px;
+    background-color: lightgray;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+}
+
+#footer {
+    color: white;
+    position: relative;
+    background-color: rgb(32, 32, 32, .9);
+    bottom: 0;
+    height: 12vh;
+    width: 100%;
+    padding-left: 1vw;
+}
+
+.contact {
+    text-decoration: none;
+    color: white;
 }

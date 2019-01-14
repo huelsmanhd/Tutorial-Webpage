@@ -4,61 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Storefront</title>
+    <title>tutorialWebpage</title>
     <link rel="stylesheet" ref="text/css" href="tutorialWebpage.css">
+    <link rel="stylesheet" href="animate.min.css">
 </head>
 <body>
-    <!-- Structure:
-    Webpage must contain the following elements:
-    <header>
-    <section>
-    <a>
-    <footer>
-    <article>
-    <sidebar>
-    Must make use of at least one CSS pseudo-class ( :hover for example)
-    Must have seperate CSS and HTML files connected through a <link> tag
-    Links in <nav> need to be able to direct users to the matching topic sections
-    Must have body content informing the user about topics listed below
-    Must make use of at least one AnimateCSS animation
-    Must have at least 3 educational programming links on the site - these links should open in a new tab
-    
-        Content:
-    You must include and describe at least 3 of the following 5 concepts within your webpage:
-    Functions
-    Objects
-    Arrays
-    For Loops
-    Conditionals
-     -->
-    
-     <!--  NAVBAR -->
     <section id="navbar">
      <nav>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">News</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#conditonals">Conditionals</a></li>
+            <li><a href="#forLoops">For Loops</a></li>
+            <li><a href="#objects">Objects</a></li>
+            <li><a href="#arrays">Arrays</a></li>
+            <li><a href="#functions">Functions</a></li>
+            <li><a href="#mainContent">Home</a></li>
         </ul>
     </nav>
     </section>
-    <!-- Header -->
    
-    <section id="header">
-        
+    <header class="animated rollIn">
+        <h1>
+            <strong>Javascript Fundamentals</strong>
+        </h1>
+        <hr class="titleBar">
+    </header>
+    
+    <section>
+        <img src="https://images.unsplash.com/photo-1518932945647-7a1c969f8be2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80">
     </section>
-
-    <!-- Main Content -->
+   
+    <sidebar id="sidebar">
+        <h5>General Help</h5>
+        <ul class="sidebarList">
+            <li><a target="blank" href="https://www.w3schools.com/default.asp">W3 Schools</a></li>
+            <li><a target="blank" href="https://developer.mozilla.org/en-US/">MDN</a></li>
+            <li><a target="blank" href="https://stackoverflow.com/">Stack Overflow</a></li>
+        </ul>
+        <h5>Tutorials and Learning</h5>
+        <ul class="sidebarList">
+            <li><a target="blank" href="https://www.codecademy.com/learn">Codecademy</a></li>
+            <li><a target="blank" href="https://watchandcode.com/">WatchandCode</a></li>
+            <li><a target="blank" href="https://www.udemy.com/">Udemy</a></li>
+            <li><a target="blank" href="https://www.pluralsight.com/codeschool">PluralSight</a></li>
+        </ul>
+        <h5>Library Tools</h5>
+        <ul class="sidebarList">
+            <li><a target="blank" href="https://daneden.github.io/animate.css/">Animate.css</a></li>
+            <li><a target="blank" href="https://jquery.com/download/">jQuery.js</a></li>
+            <li><a target="blank" href="https://d3js.org/">D3.js</a></li>
+        </ul>
+    </sidebar>
     
     <section id="mainContent">
-
+        <article class="infosect">
+            <a id="functions"></a>
+            <h3>Functions</h3>
+            <p>The purpose of a function is to allow us to preform an action or actions. Functions are evverywhere in programming and essential to any webpage. A function can perform singular or repeated tasks. Functions are composed of a few different elements, such as the <em>Declaration</em>, <em>Expression</em>, and <em>Parameters</em>. Th declaration tells us what the variable(s) of a function will be. The expression shows what will be done with the variable.</p>
+        <article class="infosect">
+            <a id="arrays"></a>
+            <h3>Arrays</h3>
+            <p>An array is a list of values. Unlike objects, arrays do not have corresponding keys. Data within an array is typically of the same type, and can be accessed via indexing.</p>
+        </article>
+        <article class="infosect">
+            <a id="objects"></a>
+            <h3>Objects</h3>
+            <p>Objects are similar to arrays, but they can hold multiple forms of information. The properties within an object can hold a range of varied, but related, information. Within an object is a <em>key</em> and a corresponding <em>value</em>. These values can be any type of data, including other objects.</p>
+        </article>
+        <article class="infosect">
+            <a id="forLoops"></a>
+            <h3>For Loops</h3>
+            <p>Loops are commonly used in coding to repeat a certain action until a specified condition is met. A <em>For Loop</em> consists of a few elements to set the conditions for the repeated action. The structure begins with the variable setup, followed by the test expression that typically sets a range of values to test, then the increment of each looped action completes the structure. On the following line, the test is run in the body of the loop until the parameters for the looped action are false.<em>For Loops</em> are very useful for actions that require repeated counting and listing.</p>
+        </article>
+        <article class="infosect">
+            <a id="conditionals"></a>
+            <h3>Conditionals</h3>
+            <p>A <em>conditional</em> is an essential piece of code syntax, providing a structure for true/false indicators. A <em>conditional</em> begins with the declaration of a variable to be compared to a true/false statment. The variable declaration is followed by an 'if' statement, that checks the variable against a certain condition. If that condition is met, the console.log function runs an input phrase that expresses the variable as true.</p>
+        </article>
     </section>
     
-    <!-- Footer -->
-    
-    <section id="footer">
-        
-    </section>
+    <footer id="footer">
+        <p>Posted By: Henry Huelsman</p>
+        <p>Contact info: <a href="mailto:hhuelsman14@gmail.com" class="contact">hhuelsman14@gamil.com</a></p>
+    </footer>
 </body>
 </html>
