@@ -102,6 +102,7 @@ hr.titleBar {
     font-family: 'Righteous', cursive;
     color: teal;
     margin: 20px;
+    z-index: 2;
 }
 
 .infosect p {
@@ -110,6 +111,7 @@ hr.titleBar {
     background-color: lightgray;
     border-radius: 10px 10px 10px 10px;
     margin: 10px;
+    z-index: inherit;
 }
 
 #footer {
