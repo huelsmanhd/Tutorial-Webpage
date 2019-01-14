@@ -18,10 +18,11 @@ body {
     display: block;
     padding: 20px 16px;
     text-decoration: none;
+    font-family: "Cabin", sans-serif;
     color: black;
 }
 
-#navbar  li a:hover {
+#navbar li a:hover {
     background-color: goldenrod;
 }
 
@@ -31,7 +32,8 @@ body {
     width: 60%;
     position: relative;
     color: teal;
-    font: normal 40px arial;
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
 }
 
 img {
@@ -70,8 +72,10 @@ hr.titleBar {
 #sidebar h5 {
     color: whitesmoke;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
+    font-family: "Cabin", sans-serif;
     text-transform: uppercase;
+    text-decoration: underline;
     position: relative;
 }
 
@@ -86,15 +90,16 @@ hr.titleBar {
 }
 
 .sidebarList {
-    float: right;
     text-align: center;
     list-style-type: none;
     position: relative;
+    left: -10px;
 }
 
 .infosect h3 {
     position: relative;
-    font: bold 30px "Lucida Sans Unicode";
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
     color: teal;
     margin: 20px;
 }
